@@ -1,9 +1,9 @@
-const express = require("express");
-const router = express.Router();
+const express = require('express')
+const router = express.Router()
 
-const dataRoute = require("./dataRoute");
-router.use(express.json());
+const dataRoute = require('./dataRoute')
+router.use(express.json())
 
-router.use("/data", dataRoute);
+router.use('/data', dataRoute)
 
-module.exports = router;
+module.exports = router

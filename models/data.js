@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose')
 const data = mongoose.Schema({
     timestamp: {
         type: Date,
@@ -9,5 +9,5 @@ const data = mongoose.Schema({
         type: Number,
         required: true,
     },
-});
-module.exports = mongoose.model("data", data);
+})
+module.exports = mongoose.model('data', data)
